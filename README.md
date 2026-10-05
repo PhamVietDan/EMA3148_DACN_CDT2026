@@ -16,7 +16,7 @@ Trong quá trình thực hiện dự án, tôi chịu trách nhiệm chính tron
 * **Hệ thống Động lực (Propulsion):** Sử dụng khung (Frame) S500, kết hợp với động cơ không chổi than Phantom 3 850KV và cánh quạt 9450.
 * **Năng lượng & Điều khiển:** Cấp nguồn bởi pin LiPo Ovonic 4S 110C 5300mAh và điều khiển từ xa thông qua tay điều khiển cùng bộ thu phát (Rx/Tx) sóng RF.
 
-### 2. Tính toán tải trọng và lực nâng (Aerodynamics & Payload)
+### 2. Tính toán tải trọng và lực nâng
 * **Phân tích lực nâng:** Đánh giá và tính toán lực đẩy (Thrust) thực tế tạo ra từ cấu hình tổ hợp: Động cơ Phantom 3 850KV + Cánh quạt 9450 + Nguồn điện 14.8V (Pin 4S).
 * **Tối ưu tải trọng:** Xác định tổng trọng lượng hệ thống (khung S500, pin 5300mAh, vi điều khiển, cảm biến...). Từ đó tính toán tỷ lệ lực đẩy/trọng lượng (Thrust-to-Weight Ratio) nhằm đảm bảo drone cất cánh an toàn, bay ổn định và xác định được giới hạn tải trọng dư thừa nếu gắn thêm thiết bị khác.
 
