@@ -19,13 +19,13 @@ Dựa trên các thông số tính toán lực nâng và tải trọng ở trên
 | **Cảm biến & Định vị** | **IMU BMI323** | Đo lường quán tính (gia tốc và góc quay). | <img src="photos/bmi323.jpg" width="90" alt="BMI323"> |
 | | **Optical Flow MTF-01P** | Cảm biến quang học hỗ trợ giữ vị trí tầm thấp. | <img src="photos/mtf01p.jpg" width="90" alt="MTF-01P"> |
 | | **GPS GEP-M10-DI** | Module La bàn | <img src="photos/gps_m10.jpg" width="90" alt="GPS"> |
-| **Hệ thống Động lực** | **Khung (Frame) S500** | Khung giá đỡ chịu lực cho toàn bộ hệ thống drone. | *(Thêm link ảnh khung)* |
-| | **Động cơ Phantom 3 850KV** | Động cơ không chổi than (Brushless Motor) tạo lực quay. | *(Thêm link ảnh motor)* |
-| | **Cánh quạt 9450** | Tạo lực nâng đẩy hệ thống khi kết hợp với động cơ. | *(Thêm link ảnh cánh)* |
-| **Năng lượng & Giao tiếp** | **Pin LiPo Ovonic 4S 5300mAh** | Cấp nguồn năng lượng (14.8V) cho toàn bộ cấu hình. | *(Thêm link ảnh pin)* |
-| | **Bộ Tay điều khiển (Tx/Rx)** | Giao tiếp sóng RF để điều khiển drone từ xa. | *(Thêm link ảnh Tx/Rx)* |
+| **Hệ thống Động lực** | **Khung (Frame) S500** | Khung giá đỡ chịu lực cho toàn bộ hệ thống drone. | |
+| | **Động cơ Phantom 3 850KV** | Động cơ không chổi than (Brushless Motor) tạo lực quay. | |
+| | **Cánh quạt 9450** | Tạo lực nâng đẩy hệ thống khi kết hợp với động cơ. | |
+| **Năng lượng & Giao tiếp** | **Pin LiPo Ovonic 4S 5300mAh** | Cấp nguồn năng lượng (14.8V) cho toàn bộ cấu hình. | |
+| | **Bộ Tay điều khiển (Tx/Rx)** | Giao tiếp sóng RF để điều khiển drone từ xa. | |
 
 ### 3. Hình ảnh thực tế của Drone sau khi lắp ráp
 <div align="center">
-  <img src="photos/ten_file_anh_drone.jpg" width="500" alt="Hình ảnh Drone thực tế">
+  <img src="photos/drone.jpg" width="500" alt="Hình ảnh Drone thực tế">
 </div>
