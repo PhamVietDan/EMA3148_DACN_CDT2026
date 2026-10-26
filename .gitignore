@@ -1,0 +1,29 @@
+# Build directories
+Debug/
+Release/
+build/
+EWARM/settings/
+EWARM/Project/
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+
+# IDE files
+.metadata/
+*.launch
+.settings/
+.vscode/
+.kiro/
+*.bak
+*.orig
+
+# OS generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
