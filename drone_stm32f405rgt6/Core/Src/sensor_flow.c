@@ -39,7 +39,7 @@ void Flow_Process_Data(void) {
             case 7: msp_state = 8; msp_count = 0; break;
             case 8:
                 msp_payload[msp_count++] = flow_byte;
-                if (msp_count >= msp_len) msp_state = 9;
+                if (msp_count >= msp_len) msp_state = 9;   
                 break;
             case 9:
                 if (msp_cmd == 1 && msp_len == 5) {
