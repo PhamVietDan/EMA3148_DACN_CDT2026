@@ -1,0 +1,11 @@
+{
+  "kiro-task-injector": {
+    "enabled": false,
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "node scripts/pre_invocation.js"
+      }
+    ]
+  }
+}
