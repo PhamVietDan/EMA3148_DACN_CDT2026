@@ -9,7 +9,7 @@ Firmware được viết lại từ đầu theo kế hoạch trong [`PROJECT_PLA
 | Chế độ / chức năng | Mô tả |
 |---|---|
 | **Angle** | Cần tay cầm đặt góc nghiêng; vòng góc (P) → vòng tốc độ góc (PID) → mixer |
-| **Alt Hold** | Giữ độ cao bằng Kalman 2 trạng thái (gia tốc + ToF), cất cánh tự động lên độ cao đặt, tự học ga hover |
+| **Alt Hold** | Giữ độ cao bằng Kalman 2 trạng thái (gia tốc kế + ToF), cất cánh tự động lên độ cao đặt, tự học ga hover |
 | **Position Hold** | Giữ vị trí trong nhà bằng optical flow: vị trí (P) → vận tốc (PI) → góc nghiêng; thả cần thì phanh rồi neo tại chỗ dừng |
 | Giữ hướng (yaw) | Khi cần yaw ở giữa, giữ hướng hiện tại |
 | Failsafe | Mất sóng: nếu đang bay và còn độ cao hợp lệ thì tự hạ cánh, nếu không thì tắt động cơ |
@@ -18,7 +18,7 @@ Firmware được viết lại từ đầu theo kế hoạch trong [`PROJECT_PLA
 | Baro dự phòng | Mất ToF ngắn (≤ 3 s) ở trên 0,5 m: baro giữ độ cao |
 | Tham số trong flash | Đọc/ghi qua GCS (`SET`, `SAVE`), có CRC |
 | Ghi log | Telemetry 50 Hz, capture tần số cao (~265 Hz) cho phân tích rung, log optical flow |
-| GPS | Đọc UBX NAV-PVT (mới quan sát, chưa dùng để bay) |
+
 
 ## Kiến trúc firmware
 
