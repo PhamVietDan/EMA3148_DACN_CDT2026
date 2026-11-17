@@ -1,0 +1,44 @@
+# Build directories
+Debug/
+Release/
+build/
+EWARM/settings/
+EWARM/Project/
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+*.su
+*.list
+
+# IDE files
+.metadata/
+*.launch
+.settings/
+.vscode/
+.kiro/
+*.bak
+*.orig
+
+# Python
+__pycache__/
+*.pyc
+
+# Flight logs and high-rate captures (large; kept on the PC)
+gcs/logs/
+
+# Third-party books (copyrighted; titles listed in README)
+docs/*.pdf
+
+# Old firmware before the rewrite (kept locally, read-only)
+drone_stm32f405rgt6/
+
+# OS generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
