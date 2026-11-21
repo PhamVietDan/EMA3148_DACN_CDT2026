@@ -17,10 +17,11 @@ Dựa trên các thông số tính toán lực nâng và tải trọng ở trên
 | :--- | :--- | :--- | :---: |
 | **Bộ điều khiển trung tâm** | **Kit WeAct STM32F405RGT6** *(Phiên bản 1)* | Vi điều khiển trung tâm (Flight Controller) giai đoạn đầu, xử lý thuật toán bay cơ bản. | <img src="photos/stm32f405rgt6.jpg" width="90" alt="STM32F405"> |
 | | **Kit DevEBox STM32H743VIT6** *(Nâng cấp)* | Vi điều khiển trung tâm hiệu năng cao (480MHz), mở rộng tài nguyên tính toán. | <img src="photos/stm32h743vit6.jpg" width="90" alt="STM32H743"> |
-| **Cảm biến & Định vị** | **IMU BMI323 / ICM-42688** | Đo lường quán tính (gia tốc và góc quay); nâng cấp lên **ICM-42688** trên bản mạch mới để giảm nhiễu. | <img src="photos/bmi323.jpg" width="90" alt="BMI323"> |
+| **Cảm biến & Định vị** | **IMU BMI323** *(Phiên bản 1)* | Đo lường quán tính (gia tốc và góc quay) dùng trong giai đoạn đầu. | <img src="photos/bmi323.jpg" width="90" alt="BMI323"> |
+| | **IMU ICM-42688** *(Nâng cấp)* | Thay thế BMI323 trên bo mạch SPIDER_H7_FC, giảm nhiễu và tăng độ chính xác. | <img src="photos/icm42688.jpg" width="90" alt="ICM-42688"> |
 | | **Optical Flow MTF-01P** | Cảm biến quang học hỗ trợ giữ vị trí tầm thấp. | <img src="photos/mtf01p.jpg" width="90" alt="MTF-01P"> |
 | | **GPS GEP-M10-DI** | Module La bàn và định vị vệ tinh. | <img src="photos/gps_m10.jpg" width="90" alt="GPS"> |
-| **Giao tiếp & Telemetry** | **Module ESP32-C3** *(Nâng cấp)* | Truyền nhận dữ liệu Telemetry không dây theo thời gian thực trên bo mạch mới. | |
+| **Giao tiếp & Telemetry** | **Module ESP32-C3** | Truyền nhận dữ liệu Telemetry không dây theo thời gian thực (dùng từ phiên bản 1). | |
 | **Hệ thống Động lực** | **Khung (Frame) S500** | Khung giá đỡ chịu lực cho toàn bộ hệ thống drone. | |
 | | **Động cơ Phantom 3 850KV** | Động cơ không chổi than (Brushless Motor) tạo lực quay. | |
 | | **Cánh quạt 9450** | Tạo lực nâng đẩy hệ thống khi kết hợp với động cơ. | |
@@ -32,7 +33,6 @@ Dựa trên các thông số tính toán lực nâng và tải trọng ở trên
 
 - **Lý do nâng cấp:** Tận dụng xung nhịp cao (480MHz) và tập lệnh DSP/FPU mạnh mẽ của dòng STM32H7 để chạy bộ lọc Kalman và vòng lặp điều khiển tần số cao mượt mà hơn, đồng thời khắc phục tình trạng lỏng dây tín hiệu khi drone rung động.
 - **Đặc điểm thiết kế mạch SPIDER_H7_FC:**
-  - **Chuẩn hóa cổng kết nối:** Sử dụng các jack cắm chống ngược cực cho từng ngoại vi riêng biệt: `RX_SBUS` (tay điều khiển), `MOTOR` & `GND_MOTOR` (4 kênh ESC), `Optical Flow` (MTF-01P), và `GPS_Magnet` (GEP-M10-DI).
   - **Tích hợp cảm biến & Telemetry:** Bố trí đế cắm trực tiếp cho cảm biến quán tính **ICM-42688** và module truyền dữ liệu không dây **ESP32-C3** (`TELEMETRY ESP C3`).
   - **Nguồn & Giám sát:** Hỗ trợ đầu vào nguồn pin 4S (`+16V`), đường nguồn ổn áp `+5V`, tích hợp mạch Op-amp `LMV358` đo điện áp pin và còi báo trạng thái (`BZ1`).
 
