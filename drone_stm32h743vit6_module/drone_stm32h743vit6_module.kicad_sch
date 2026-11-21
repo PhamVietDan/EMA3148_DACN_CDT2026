@@ -7051,7 +7051,7 @@
 		)
 		(uuid "5b9c277f-9dbe-49e4-a0ed-d830112bce7b")
 	)
-	(label "PB0_TIM3_CH3_RGB"
+	(label "PB0_TIM1_CH2N_RGB"
 		(at 43.18 170.18 180)
 		(effects
 			(font
@@ -7671,7 +7671,7 @@
 		)
 		(uuid "dc6ce655-f239-4f56-8100-ab063afd5ebc")
 	)
-	(label "PB0_TIM3_CH3_RGB"
+	(label "PB0_TIM1_CH2N_RGB"
 		(at 81.28 54.61 0)
 		(effects
 			(font

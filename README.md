@@ -16,7 +16,7 @@ Dựa trên các thông số tính toán lực nâng và tải trọng ở trên
 | Phân loại | Tên linh kiện | Chức năng chính | Hình ảnh minh họa |
 | :--- | :--- | :--- | :---: |
 | **Bộ điều khiển trung tâm** | **Kit WeAct STM32F405RGT6** *(Phiên bản 1)* | Vi điều khiển trung tâm (Flight Controller) giai đoạn đầu, xử lý thuật toán bay cơ bản. | <img src="photos/stm32f405rgt6.jpg" width="90" alt="STM32F405"> |
-| | **Kit DevEBox STM32H743VIT6** *(Nâng cấp)* | Vi điều khiển trung tâm hiệu năng cao (480MHz), mở rộng tài nguyên tính toán và bộ lọc nâng cao. | <img src="photos/stm32h743vit6.jpg" width="90" alt="STM32H743"> |
+| | **Kit DevEBox STM32H743VIT6** *(Nâng cấp)* | Vi điều khiển trung tâm hiệu năng cao (480MHz), mở rộng tài nguyên tính toán. | <img src="photos/stm32h743vit6.jpg" width="90" alt="STM32H743"> |
 | **Cảm biến & Định vị** | **IMU BMI323 / ICM-42688** | Đo lường quán tính (gia tốc và góc quay); nâng cấp lên **ICM-42688** trên bản mạch mới để giảm nhiễu. | <img src="photos/bmi323.jpg" width="90" alt="BMI323"> |
 | | **Optical Flow MTF-01P** | Cảm biến quang học hỗ trợ giữ vị trí tầm thấp. | <img src="photos/mtf01p.jpg" width="90" alt="MTF-01P"> |
 | | **GPS GEP-M10-DI** | Module La bàn và định vị vệ tinh. | <img src="photos/gps_m10.jpg" width="90" alt="GPS"> |
@@ -48,10 +48,27 @@ Dựa trên các thông số tính toán lực nâng và tải trọng ở trên
         <sub><b>Mặt dưới (Bottom Layer)</b></sub>
       </td>
     </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="photos/board.jpg" width="500" alt="Bo mạch SPIDER_H7_FC thực tế"><br>
+        <sub><b>Bo mạch SPIDER_H7_FC thực tế (bản nâng cấp)</b></sub>
+      </td>
+    </tr>
   </table>
 </div>
 
 ### 4. Hình ảnh thực tế của Drone sau khi lắp ráp
 <div align="center">
-  <img src="photos/drone.jpg" width="500" alt="Hình ảnh Drone thực tế">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="photos/drone.jpg" width="400" alt="Hình ảnh Drone Ver 1"><br>
+        <sub><b>Drone Ver 1 (STM32F405RGT6 - đấu nối dây rời)</b></sub>
+      </td>
+      <td align="center">
+        <img src="photos/drone2.jpg" width="400" alt="Hình ảnh Drone Ver 2"><br>
+        <sub><b>Drone Ver 2 (SPIDER_H7_FC - bản nâng cấp)</b></sub>
+      </td>
+    </tr>
+  </table>
 </div>
