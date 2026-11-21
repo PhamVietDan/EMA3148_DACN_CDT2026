@@ -1,0 +1,8 @@
+../Core/Src/sensor_gps_mag.c:32:6:GPS_Init	8	static
+../Core/Src/sensor_gps_mag.c:36:6:GPS_Parse_Interrupt	16	static
+../Core/Src/sensor_gps_mag.c:57:14:NMEA_To_Decimal	24	static
+../Core/Src/sensor_gps_mag.c:68:6:GPS_Process_Sentence	168	static
+../Core/Src/sensor_gps_mag.c:109:13:Mag_Read_Raw	40	static
+../Core/Src/sensor_gps_mag.c:117:6:Mag_Init	32	static
+../Core/Src/sensor_gps_mag.c:129:6:Mag_Calibrate	288	static
+../Core/Src/sensor_gps_mag.c:179:6:Mag_Read_Heading	48	static

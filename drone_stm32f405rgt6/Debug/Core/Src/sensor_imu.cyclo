@@ -1,0 +1,4 @@
+../Core/Src/sensor_imu.c:49:13:BMI323_SPI_Write	1
+../Core/Src/sensor_imu.c:60:13:BMI323_SPI_Read	1
+../Core/Src/sensor_imu.c:79:6:IMU_Init_And_Calibrate	6
+../Core/Src/sensor_imu.c:151:6:IMU_Read_And_Calculate_Angles	8

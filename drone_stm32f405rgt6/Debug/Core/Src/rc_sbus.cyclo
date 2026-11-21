@@ -1,0 +1,3 @@
+../Core/Src/rc_sbus.c:16:6:map	1
+../Core/Src/rc_sbus.c:20:6:SBUS_Init	1
+../Core/Src/rc_sbus.c:23:6:SBUS_Parse	16

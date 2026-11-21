@@ -1,0 +1,2 @@
+../Core/Src/sensor_baro.c:17:6:Baro_Init	48	static
+../Core/Src/sensor_baro.c:43:6:Baro_Read_Altitude	56	static
